@@ -1,0 +1,18 @@
+.interests__container {
+  width: 317px;
+  background-color: #1a1b21;
+}
+
+.interests__title {
+  color: white;
+  margin: 0px 34px 10px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.interests__description {
+  color: white;
+  margin: 0px 34px;
+  font-size: 13px;
+  padding-bottom: 30px;
+}

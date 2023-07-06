@@ -1,0 +1,42 @@
+.footer__container {
+  width: 317px;
+  background: #161619;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px 0px 13px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.facebook__button {
+  border: none;
+  background-color: #161619;
+  padding: 0;
+}
+
+.facebook__button:hover {
+  cursor: pointer;
+}
+
+.instagram__button {
+  border: none;
+  background-color: #161619;
+  r: #161619;
+  padding: 0;
+}
+
+.instagram__button:hover {
+  cursor: pointer;
+}
+
+.github__button {
+  border: none;
+  background-color: #161619;
+  r: #161619;
+  padding: 0;
+}
+
+.github__button:hover {
+  cursor: pointer;
+}

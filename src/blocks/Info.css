@@ -1,3 +1,95 @@
 .profile__image {
   background-image: url(../images/profilepic.jpeg);
 }
+
+.info__container {
+  width: 317px;
+  text-align: center;
+  background-color: #1a1b21;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.profile__image {
+  width: 317px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.profile__name {
+  color: white;
+  font-size: 35px;
+  margin: 10px 0 0;
+}
+
+.job__title {
+  color: rgb(201, 162, 98);
+  font-size: 14px;
+  margin: 0;
+}
+
+.portfolio__link {
+  color: white;
+  font-size: 12px;
+  margin: 5px 0 10px;
+}
+
+.buttons__container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.email__button {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 115px;
+  height: 34px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.email__button:hover {
+  cursor: pointer;
+}
+
+.email__icon {
+  position: absolute;
+  width: 24px;
+  left: 20px;
+}
+
+.email__button-text {
+  margin-left: 45px;
+  font-size: 15px;
+}
+
+.linkedin__button {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 115px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00a0dc;
+}
+
+.linkedin__button:hover {
+  cursor: pointer;
+}
+
+.linkedin__icon {
+  position: absolute;
+  width: 16px;
+  left: 18px;
+}
+
+.linkedin__button-text {
+  margin-left: 35px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
